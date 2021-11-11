@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: 'Anton', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: 'Anton', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Anton', sans-serif ;
+    color: #3a3a3a;
+}
+/*Heading and logo image */
+header{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    height: 8%;
+}
+header h1{
+    font-size: 30px;
+    color: #3F8EFC;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+header a{
+    text-decoration: none;
+}
+#menu{
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    margin: 20px 80px;
+    text-align: center;
+}
+#menu li a{
+    color: #3F8EFC;
+    font-weight: 500;
+    letter-spacing: 2px;
+  
+}
+#menu li a:hover{
+    color: blue;
+    padding-left: 3px;   
+    border-bottom: 2px solid blue;
+}
