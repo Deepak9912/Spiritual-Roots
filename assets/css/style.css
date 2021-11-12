@@ -45,7 +45,7 @@ header a{
 #menu li a:hover{
     color: blue;
     padding-left: 3px;   
-    
+    letter-spacing: 3px;
 }
 .active{
     border-bottom: 1px solid blue;
