@@ -82,7 +82,9 @@ header a{
     color: #fff;
     font-weight: 500;
     letter-spacing: 4px;
-    font-family:'Anton', sans-serif; ;
+    font-family:'Anton', sans-serif;
+    padding: 20px;
+    float: left;
 }
 #home-cover{
     background-color: rgba(128, 187, 226, 0.6);
@@ -92,4 +94,73 @@ header a{
     position: absolute;
     bottom: 70px;
     right: 50px;
+    
 }
+/*Intro section*/
+#intro{
+    height: 80vh;
+    width: 100%;
+    padding: 3%;
+    color:#3F8EFC;
+    font-family:sans-serif;
+    display: inline-flex;
+    margin-top: 2%;
+}
+
+#intro-para{
+    width: 60%;
+    float: left;
+}
+#intro-para h2{
+    line-height: 2rem;
+    text-align: justify;
+    padding: 1.5%;
+}
+#intro-para button{
+    padding: 10px 7px;
+    margin-top: 1rem;
+    margin-left: 37%;
+    font-weight: 800;
+    color: #fff;
+    background: blue;
+    border-radius: 5%;
+    border: none;
+    letter-spacing: 1px;
+ /*animation for button*/
+    animation-name: button;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes button {
+    from{
+        transform: scale(.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+#intro-para button:hover{
+    background: #6290C8;
+    color: blue;
+}
+
+#intro-video{
+    width: 40%;
+    float: right;
+    margin-left: 3rem;
+}
+@media screen and (max-width: 1200px){
+    #intro{
+        display: block;
+    }
+    #intro-para{
+        width: 100%;
+    }
+    #intro-para button{
+        margin-bottom: 2rem;
+        margin-left: 5rem ;
+    }
+    #intro-video{
+        width: 100%;
+    }
+/*intro section end */
