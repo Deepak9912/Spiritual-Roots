@@ -143,12 +143,51 @@ header a{
     background: #6290C8;
     color: blue;
 }
-
 #intro-video{
     width: 40%;
     float: right;
     margin-left: 3rem;
 }
+/*benefit section start */
+#benefit{
+    background: url("../css/images/right.jpeg")center/cover no-repeat;
+    overflow: hidden;
+    margin: 2rem;
+    padding: 2%;
+    height: 700px;
+    color: #fff;
+    
+}
+#benefit h2{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+#benefit h3{
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+#benefit p{
+    font-weight: 300;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+#left{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    text-align: justify;
+    margin-right: 1rem;
+}
+#right{
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    margin-left: 1rem;
+    text-align: justify;
+}
+/*benefit section end */
+/*Media query section*/
 @media screen and (max-width: 1200px){
     #intro{
         display: block;
@@ -163,4 +202,16 @@ header a{
     #intro-video{
         width: 100%;
     }
+    #benefit{
+        height: 100%;
+        margin: 20px 0;
+        padding: 10px;
+    }
+    #right{
+        width: 100%;
+    }
+    #left{
+        width: 100%;
+    }
 /*intro section end */
+
