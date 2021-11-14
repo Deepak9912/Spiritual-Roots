@@ -10,7 +10,8 @@
 }
 body{
     font-family: 'Anton', sans-serif ;
-    color: #3a3a3a;
+    background: #46433E;
+    color: #FAFAFA;
 }
 /*Heading and logo image */
 header{
@@ -21,7 +22,7 @@ header{
 }
 header h1{
     font-size: 30px;
-    color: #3F8EFC;
+    color: #FAED26;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -37,18 +38,17 @@ header a{
     text-align: center;
 }
 #menu li a{
-    color: #3F8EFC;
+    color: #9d8d8f;
     font-weight: 500;
     letter-spacing: 2px;
   
 }
 #menu li a:hover{
-    color: blue;
     padding-left: 3px;   
     letter-spacing: 3px;
 }
 .active{
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid grey;
 }
 /*home page section*/
 #home{
@@ -60,10 +60,7 @@ header a{
 #home-page{
     height: 600px;
     width: 100%;
-    background: url("./images/home\ image.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url("./images/home\ image1.jpeg")center/cover no-repeat;
     /* animation linked for line 70-76*/
     animation-name: home-page;
     animation-duration: 5s;
@@ -109,20 +106,21 @@ header a{
 
 #intro-para{
     width: 60%;
-    float: left;
+    float: right;
 }
-#intro-para h2{
+#intro-para p{
     line-height: 2rem;
-    text-align: justify;
+    text-align: center;
     padding: 1.5%;
+    color: #9d8d8f;
 }
 #intro-para button{
     padding: 10px 7px;
     margin-top: 1rem;
-    margin-left: 37%;
+    margin: 0 auto;
     font-weight: 800;
     color: #fff;
-    background: blue;
+    background: #9b786f;
     border-radius: 5%;
     border: none;
     letter-spacing: 1px;
@@ -140,22 +138,23 @@ header a{
     }
 }
 #intro-para button:hover{
-    background: #6290C8;
-    color: blue;
+    background: #9d8d8f;
+    color: #faffff;
 }
 #intro-video{
     width: 40%;
-    float: right;
+    float: left;
     margin-left: 3rem;
 }
 /*benefit section start */
 #benefit{
     background: url("../css/images/right.jpeg")center/cover no-repeat;
     overflow: hidden;
-    margin: 2rem;
+    margin: 1rem;
     padding: 2%;
     height: 700px;
     color: #fff;
+    background-attachment: fixed;
     
 }
 #benefit h2{
@@ -196,11 +195,11 @@ header a{
         width: 100%;
     }
     #intro-para button{
-        margin-bottom: 2rem;
-        margin-left: 5rem ;
+        margin: 0 auto;
     }
     #intro-video{
         width: 100%;
+        margin: 0 auto;
     }
     #benefit{
         height: 100%;
@@ -213,5 +212,5 @@ header a{
     #left{
         width: 100%;
     }
-/*intro section end */
+/*Media query section end */
 
