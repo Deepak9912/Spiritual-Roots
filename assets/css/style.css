@@ -148,12 +148,12 @@ header a{
 }
 /*benefit section start */
 #benefit{
-    background: url("../css/images/right.jpeg")center/cover no-repeat;
-    overflow: hidden;
+    background: url("../css/images/benefit\ bg2.jpeg")center/cover no-repeat;
+    
     margin: 1rem;
     padding: 2%;
     height: 700px;
-    color: #fff;
+    color: #fafafa;
     background-attachment: fixed;
     
 }
