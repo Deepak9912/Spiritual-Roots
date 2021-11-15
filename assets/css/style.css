@@ -20,6 +20,9 @@ header{
     padding-top: 15px;
     height: 8%;
 }
+header span{
+    color: #fafafa;
+}
 header h1{
     font-size: 30px;
     color: #FAED26;
@@ -148,27 +151,40 @@ header a{
 }
 /*benefit section start */
 #benefit{
-    background: url("../css/images/benefit\ bg2.jpeg")center/cover no-repeat;
-    margin: 1rem;
-    padding: 2%;
-    height: 700px;
-    color: #fafafa;
-    background-attachment: fixed; 
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
-#benefit h2{
+#benefit-bg{
+    background-image: url(./images/benefit\ bg2.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+#benefit-text{
+    position: absolute;
+    top: 8%;
+    left: 40px;
+    color: #dde2e7;
+}
+#benefit-text h2{
+    text-transform: uppercase;
+    font-size: 40px;
     text-align: center;
-    letter-spacing: 2px;
-    font-weight: 500;
 }
-#benefit h3{
-    letter-spacing: 3px;
-    font-weight: 500;
+#benefit-text h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
 }
-#benefit p{
-    font-weight: 300;
-    line-height: 30px;
-    font-family: sans-serif;
+#benefit-text p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 #left{
     padding-top: 30px;
     width: 50%;
@@ -182,7 +198,6 @@ header a{
     float: right;
     margin-left: 1rem;
     text-align: justify;
-   
 }
 /*blockquote section start*/
 #quote{
@@ -240,6 +255,7 @@ footer{
     }
     #intro-video{
         width: 100%;
+        height: 80%;
         margin: 0 auto;
     }
     #benefit{
