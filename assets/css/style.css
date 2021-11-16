@@ -16,7 +16,7 @@ header{
     width: 100%;
     text-align: center;
     padding-top: 15px;
-    height: 8%;
+    height: 6%;
 }
 header span{
     color: #fafafa;
@@ -42,7 +42,6 @@ header a{
     color: #9d8d8f;
     font-weight: 500;
     letter-spacing: 2px;
-  
 }
 #menu li a:hover{
     padding-left: 3px;   
@@ -53,7 +52,7 @@ header a{
 }
 /*home page section*/
 #home{
-    height: 80vh;
+    height: 60vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
@@ -370,7 +369,7 @@ footer{
     #intro{
         height: 60vh;
         display: block;
-        margin-top: -20%;
+        margin-top: 1%;
     }
     #intro-para {
         width: 100%;
