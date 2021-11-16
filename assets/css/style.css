@@ -334,5 +334,13 @@ footer{
         height: inherit;
         margin-bottom: 22px;
     }
+    .container{
+       height: 100%;
+       display: block;
+    }
+    .history-image{
+        width: 100%;
+        height: 280px;
+    }
 /*Media query section end */
 
