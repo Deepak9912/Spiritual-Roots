@@ -247,31 +247,38 @@ footer{
     background-repeat: no-repeat;
     background-position: inherit;
 }
+#about-h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    color: #9d8d8f;
+    font-size: 35px;
+}
+#about-p{
+    font-family: Helvetica, sans-serif;
+    color: #9d8d8f;
+    font-size: 16px;
+}
 #about-intro{
     height: 50vh;
     margin: 2%;
-    color: #9d8d8f;
-}
-#about-intro h1{
-    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
-    font-size: 35px;
-}
-#about-intro p{
-    font-family: Helvetica, sans-serif;
-    font-size: 16px;
-
 }
 #about-history{
-    color: #9d8d8f;
-    height: 90vh;
     margin: 2%;
 }
-#history-header{
-    grid-column: 1/-1;
+.container{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+.history-image{
+    background-image: url(./images/history-image.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin-bottom: 30px;
 }
 
-
-/*footer section end*/
 /*Media query section*/
 @media screen and (max-width: 1200px){
     #intro{
