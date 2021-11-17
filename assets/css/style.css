@@ -1,66 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /*font-family: 'Anton', sans-serif; */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Anton', sans-serif ;
+
+body {
+    font-family: 'Anton', sans-serif;
     background: #46433E;
     color: #FAFAFA;
 }
+
 /*Heading and logo image */
-header{
+header {
     width: 100%;
     text-align: center;
     padding-top: 15px;
     height: 6%;
 }
-header img{
+
+header img {
     border-radius: 50%;
 }
-header span{
+
+header span {
     color: #fafafa;
 }
-header h1{
+
+header h1 {
     font-size: 30px;
     color: #FAED26;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
-header a{
+
+header a {
     text-decoration: none;
 }
-#menu{
+
+#menu {
     list-style: none;
 }
-#menu li{
+
+#menu li {
     display: inline-block;
     margin: 20px 80px;
     text-align: center;
 }
-#menu li a{
-    color: #9d8d8f;
+
+#menu li a {
+    color: #d1cacb;
     font-weight: 500;
     letter-spacing: 2px;
 }
-#menu li a:hover{
-    padding-left: 3px;   
+
+#menu li a:hover {
+    padding-left: 3px;
     letter-spacing: 3px;
 }
-.active{
+
+.active {
     border-bottom: 1px solid grey;
 }
+
 /*home page section*/
-#home{
+#home {
     height: 60vh;
     width: 100vw;
     overflow: hidden;
     position: relative;
 }
-#home-page{
+
+#home-page {
     height: 600px;
     width: 100%;
     background: url("./images/home\ image1.jpeg")center/cover no-repeat;
@@ -69,24 +82,29 @@ header a{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /*animation for home page*/
-@keyframes home-page{
-    from{
+@keyframes home-page {
+    from {
         transform: scale(1);
-    } to{
+    }
+
+    to {
         transform: scale(1.1);
     }
 }
+
 /*Home cover style */
-#home-cover h1{
+#home-cover h1 {
     color: #fff;
     font-weight: 500;
     letter-spacing: 4px;
-    font-family:'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
     padding: 20px;
     float: left;
 }
-#home-cover{
+
+#home-cover {
     background-color: rgba(128, 187, 226, 0.6);
     text-transform: uppercase;
     width: 300px;
@@ -94,8 +112,9 @@ header a{
     position: absolute;
     bottom: 70px;
     right: 50px;
-    
+
 }
+
 /*Intro section*/
 #intro {
     height: 70vh;
@@ -106,57 +125,62 @@ header a{
 }
 
 #intro-para {
-width: 60%;
-float: right;
+    width: 60%;
+    float: right;
 }
+
 #intro-video {
-width: 35%;
-float: left;
-height: 75%;
+    width: 35%;
+    float: left;
+    height: 75%;
 }
+
 #intro-para p {
-line-height: 2rem;
-text-align: center;
-padding: 1%;
-color: #9d8d8f;
-font-family: Helvetica, sans-serif;
+    line-height: 2rem;
+    text-align: center;
+    padding: 1%;
+    color: #d1cacb;
+    font-family: Helvetica, sans-serif;
 }
 
 #intro-para button {
-padding: 10px 7px;
-margin: 20px auto;
-font-weight: 800;
-color: #fff;
-background: #9b786f;
-border-radius: 5%;
-border: none;
-letter-spacing: 1px;
-/*animation for button*/
-animation-name: button;
-animation-duration: 3s;
-animation-fill-mode: forwards;
+    padding: 10px 7px;
+    margin: 20px auto;
+    font-weight: 800;
+    color: #3a3232;
+    background: #cbc8c7;
+    border-radius: 5%;
+    border: none;
+    letter-spacing: 1px;
+    /*animation for button*/
+    animation-name: button;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes button {
-from {
-    transform: scale(.5);
+    from {
+        transform: scale(.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
-to {
-    transform: scale(1);
-}
-}
 #intro-para button:hover {
-background: #9d8d8f;
-color: #faffff;
+    background: #9d8d8f;
+    color: #faffff;
 }
+
 /*benefit section start */
-#benefit{
+#benefit {
     height: 100vh;
     overflow: hidden;
     position: relative;
 }
-#benefit-bg{
+
+#benefit-bg {
     background-image: url(./images/benefit\ bg2.jpeg);
     height: 100vh;
     background-position: center;
@@ -165,66 +189,76 @@ color: #faffff;
     opacity: 0.8;
     background-attachment: fixed;
 }
-#benefit-text{
+
+#benefit-text {
     position: absolute;
     top: 8%;
     left: 40px;
     color: #dde2e7;
 }
-#benefit-text h2{
+
+#benefit-text h2 {
     text-transform: uppercase;
     font-size: 40px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
-#benefit-text h3{
+
+#benefit-text h3 {
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 10px;
 }
-#benefit-text p{
+
+#benefit-text p {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
 }
 
-#left{
+#left {
     padding-top: 30px;
     width: 50%;
     float: left;
     text-align: justify;
     margin-right: 1rem;
 }
-#right{
+
+#right {
     padding-top: 30px;
     width: 50%;
     float: right;
     margin-left: 1rem;
     text-align: justify;
 }
+
 /*blockquote section start*/
-#quote{
-   height: 320px;
+#quote {
+    height: 320px;
     padding: 2rem;
     margin: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #9b786f;
 }
-#quote p{
+
+#quote p {
     text-align: center;
     line-height: 2rem;
-    letter-spacing: 3px;      
+    letter-spacing: 3px;
+    color: #d1cacb;
 }
-#quote span{
+
+#quote span {
     float: right;
     margin: 2rem 6rem 1rem 0;
 }
-#quote i{
+
+#quote i {
     font-size: 3rem;
 }
+
 /*blockquote section end*/
 /*footer section start*/
-footer{
+footer {
     height: 150px;
     width: 100%;
     background: black;
@@ -232,158 +266,187 @@ footer{
     text-align: center;
     margin-bottom: 0;
 }
-#social-links li{
+
+#social-links li {
     display: inline;
-    margin: 0 100px; 
+    margin: 0 100px;
     text-align: center;
 }
-#social-links i{
+
+#social-links i {
     font-size: 180%;
     margin: 1%;
     padding: 2%;
     color: #fafafa;
 }
+
 /* About oage starts */
 /* About intro image section */
-#about-image{
+#about-image {
     height: 80vh;
     background-image: url(./images/about-header.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: inherit;
 }
-#about-h1{
+
+#about-h1 {
     font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
     color: #9d8d8f;
     font-size: 35px;
 }
-#about-p{
+
+#about-p {
     font-family: Helvetica, sans-serif;
     color: #9d8d8f;
     font-size: 16px;
 }
-#about-intro{
+
+#about-intro {
     height: 50vh;
     margin: 2%;
 }
-#about-history{
+
+#about-history {
     margin: 2%;
 }
-.container{
+
+.container {
     height: 60vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 30px;
     margin-top: 20px;
 }
-.history-image{
+
+.history-image {
     background-image: url(./images/history-image.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
     margin-bottom: 30px;
 }
 
 /*Media query section*/
-@media screen and (max-width: 1200px){
-    #intro{
+@media screen and (max-width: 1200px) {
+    #intro {
         display: block;
     }
-    #intro-para{
+
+    #intro-para {
         width: 100%;
     }
-    #intro-para button{
+
+    #intro-para button {
         margin: 0 auto;
     }
-    #intro-video{
+
+    #intro-video {
         width: 100%;
         height: 80%;
         margin: 0 auto;
     }
-    #benefit{
+
+    #benefit {
         height: 100%;
         width: 100%;
         margin-top: 20px;
     }
-    #benefit-bg{
+
+    #benefit-bg {
         width: 100%;
     }
-    #benefit-text h2{
+
+    #benefit-text h2 {
         text-align: inherit;
     }
-    #benefit-text{
+
+    #benefit-text {
         width: inherit;
         padding: 0;
         height: 650px;
     }
 
-    #right, #left{
+    #right,
+    #left {
         width: 100%;
     }
-    footer{
+
+    footer {
         width: 100%;
         height: 20vh;
         position: fixed;
         bottom: 0;
     }
-    #social-links li{
+
+    #social-links li {
         display: inline;
-        margin: 0 10px; 
+        margin: 0 10px;
         text-align: center;
     }
-    #about-image{
+
+    #about-image {
         width: 100%;
         height: 250px;
     }
-    #about-intro{
+
+    #about-intro {
         height: inherit;
         margin-bottom: 22px;
     }
-    .container{
-       height: 100%;
-       display: block;
+
+    .container {
+        height: 100%;
+        display: block;
     }
-    .history-image{
+
+    .history-image {
         width: 100%;
         height: 280px;
     }
-/*Media query section end */
-/*Media query section for larger screen */
-@media screen and (max-width: 950px){
-    #menu li{
-        display: inline-block;
-        margin: 20px 50px;
-        text-align: center;
-    }
-    #home-cover {
-        background-color: rgba(128, 187, 226, 0.6);
-        text-transform: uppercase;
-        width: 50%;
-        height: 40%;
-        position: absolute;
-        bottom: 32%;
-    }
-    #home-cover h1{
-        padding: 18% 5%;
-        line-height: 60px;
-        text-align: center;
-    }
-    #intro{
-        height: 60vh;
-        display: block;
-        margin-top: 1%;
-    }
-    #intro-para {
-        width: 100%;
-        text-align: center;
-    }
-    #intro-para > p{
-        font-size: 21px;
-    }
-    #intro-video {
-        width: 100%;
-        height: 80%;
-        margin-bottom: 5%;  
-    }
-}
 
+    /*Media query section end */
+    /*Media query section for larger screen */
+    @media screen and (max-width: 950px) {
+        #menu li {
+            display: inline-block;
+            margin: 20px 50px;
+            text-align: center;
+        }
+
+        #home-cover {
+            background-color: rgba(128, 187, 226, 0.6);
+            text-transform: uppercase;
+            width: 50%;
+            height: 40%;
+            position: absolute;
+            bottom: 32%;
+        }
+
+        #home-cover h1 {
+            padding: 18% 5%;
+            line-height: 60px;
+            text-align: center;
+        }
+
+        #intro {
+            height: 60vh;
+            display: block;
+            margin-top: 1%;
+        }
+
+        #intro-para {
+            width: 100%;
+            text-align: center;
+        }
+
+        #intro-para>p {
+            font-size: 21px;
+        }
+
+        #intro-video {
+            width: 100%;
+            height: 80%;
+            margin-bottom: 5%;
+        }
+    }
