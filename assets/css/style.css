@@ -18,6 +18,9 @@ header{
     padding-top: 15px;
     height: 6%;
 }
+header img{
+    border-radius: 50%;
+}
 header span{
     color: #fafafa;
 }
