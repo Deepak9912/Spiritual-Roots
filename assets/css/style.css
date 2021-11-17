@@ -95,10 +95,11 @@ header a{
 }
 /*Intro section*/
 #intro {
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     padding: 2%;
     display: inline-flex;
+    margin-top: 5%;
 }
 
 #intro-para {
@@ -109,7 +110,6 @@ float: right;
 width: 35%;
 float: left;
 height: 75%;
-width: 35%;
 }
 #intro-para p {
 line-height: 2rem;
@@ -121,8 +121,7 @@ font-family: Helvetica, sans-serif;
 
 #intro-para button {
 padding: 10px 7px;
-margin-top: 1rem;
-margin: 0 auto;
+margin: 20px auto;
 font-weight: 800;
 color: #fff;
 background: #9b786f;
