@@ -394,8 +394,17 @@ footer {
     line-height: 30px;
     color: #fff;
 }
-
 /* Our upcoming-courses page end*/
+/* Contact page starts*/
+#get_in_touch{
+    height: 20vh;
+    background: url(./images/getintocuh.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Contact page end*/
 /*Media query section*/
 @media screen and (max-width: 1200px) {
     #intro {
