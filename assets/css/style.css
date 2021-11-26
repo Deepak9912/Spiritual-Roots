@@ -397,12 +397,33 @@ footer {
 /* Our upcoming-courses page end*/
 /* Contact page starts*/
 #get_in_touch{
-    height: 20vh;
+    height: 30vh;
     background: url(./images/getintocuh.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    text-align: center;
+}
+#get_in_touch h1{
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+#contact-details{
+    height: 100%;
+    width: 80%;
+    background: rgb(104, 107, 112);
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+.contact-details-one{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    margin: 2rem 4rem;
 }
 /* Contact page end*/
 /*Media query section*/
