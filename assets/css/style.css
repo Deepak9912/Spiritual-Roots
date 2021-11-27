@@ -255,41 +255,49 @@ footer {
     color: #fafafa;
 }
 
-/* About oage starts */
+/* About page starts */
 /* About intro image section */
 #about-image {
-    height: 80vh;
-    background-image: url(./images/about-header.jpeg);
+    height: 60vh;
+    background-image: url(./images/history.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: center;
 }
+/* About intro image section end*/
 
-#about-h1 {
+/*about intro starts*/
+.about-h1 {
     font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
     color: #d1cacb;
     font-size: 35px;
+    margin-bottom: 10px;
 }
 
-#about-p {
+.about-p {
     font-family: Helvetica, sans-serif;
     color: #d1cacb;
     font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 25px;
 }
 
 #about-intro {
-    height: 50vh;
-    margin: 2%;
+    height: auto;
+    padding: 35px 20px;
 }
+/*about intro ends*/
 
+/*about history starts*/
 #about-history {
-    margin: 2%;
+    padding: 0px 20px 35px 20px;
+    color: #d1cacb;
 }
 
 .container {
-    height: 60vh;
+    height: auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 500px 800px;
     grid-gap: 30px;
     margin-top: 20px;
 }
@@ -299,7 +307,8 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 30px;
+    height: 400px;
+    width: 1500px;
 }
 /* About intro image section end*/
 /* Our courses page start*/
@@ -664,5 +673,8 @@ button:hover{
         }
         #footer{
             height: 80px;
+        }
+        #intro-para > p{
+            font-size: 17px;
         }
     }
