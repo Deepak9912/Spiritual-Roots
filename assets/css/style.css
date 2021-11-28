@@ -320,76 +320,46 @@ footer {
 .bg2{
     background: url(./images/bg2.jpeg);
 }
-/*about history starts*/
-
-
-/* About intro image section end*/
+/*about page ends*/
 /* Our courses page start*/
-#courses{
-    margin: 5rem;
-    padding: 15px;
-    background-color:#2b2c2c;
-    border-radius: 30px;
+#courses-start{
+    padding: 30px;
+    background:#252524;
+    border-radius: 10px;
 }
-.courses{
-    margin: 3rem 0;
-}
-#courses h1{
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin-bottom: 2rem;
-}
-#courses h2{
-    margin-bottom: 1rem; 
-}
-#courses p{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    line-height: 24px;
-}
-#cbt{
-    padding: 1rem;
-}
-#cbt ul li{
-    list-style-type: circle;
-    line-height: 20px;
-}
-.review{
-    background-color: #4e4f50;
-    color: rgb(224, 176, 15);
-    padding: 2rem;
-    text-shadow: black;
-    text-align: center;
-}
-/* Our courses page start*/
 /* Our upcoming-courses page start*/
-#upcoming-course {
+#upcoming-course{
     background: url(./images/bc-courses.jpeg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: saturation;
     height: 40vh;
-    margin-bottom: 2rem;
+    width: 100%;
+    padding: 20px;
 }
-.container{
-    display: inline-flex;
-}
-#upcoming-course h2 {
+#upcoming-course h2{
     text-align: center;
-    color: #fff;
+}
+.container-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
     padding: 10px;
 }
-.card {
-    width: 33%;
+.course-card {
     border: 2px solid #fff;
     padding: 20px;
     margin: 5px 20px;
     height: 150px;
     line-height: 30px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 /* Our upcoming-courses page end*/
 /* Contact page starts*/
@@ -554,37 +524,16 @@ button:hover{
     }
     #courses{
         margin: 20px;
-        padding: 15px;
+        padding: 5px;
         background-color:#2b2c2c;
         border-radius: 30px;
     }
-    #upcoming-course {
-        height: 65vh;
-        margin-bottom: 20px;
-    }
-    .container{
-        display: flexbox;
-        margin-left: 17rem;
-    }
-    #upcoming-course h2 {
-        text-align: center;
-        color: #fff;
-        padding: 10px;
-    }
-    .card {
-        width: 60%;
-        border: 2px solid #fff;
-        height: 120px;
-        line-height: 30px;
-        color: #fff;
-        font-weight: 600;
-        margin-bottom: 15px;
-    }
+
+    
     .contact-page{
         padding: 120px 50px;
     }
 }
-
     /*Media query section end */
     /* For medium screens sizes from 950px wide and down */
     @media screen and (max-width: 950px) {
@@ -630,31 +579,27 @@ button:hover{
             margin-bottom: 5%;
         }
 
-        #courses{
-            padding: 15px;
+        .courses{
+            padding: 5px;
             background-color:#2b2c2c;
             border-radius: 10px;
             width: 100%;
         }
-        #upcoming-course {
-            height: 60vh;
-        }
-        .container{
-            display: block;
-        }
-        #upcoming-course h2 {
-            text-align: center;
-            color: #fff;
-            padding: 10px;
-        }
-        .card {
+        #upcoming-course{
+            height: auto;
             width: 100%;
-            border: 2px solid #fff;
-            height: 120px;
-            line-height: 20px;
-            color: #fff;
-            font-weight: 500;
-            margin-bottom: 40px;
+        }
+        .container-course {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .course-card{
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
     }
     /* For small screens sizes from 800px wide and down */
