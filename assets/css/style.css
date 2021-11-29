@@ -327,6 +327,21 @@ footer {
     background:#252524;
     border-radius: 10px;
 }
+.courses{
+    padding: 20px;
+}
+.courses h2{
+    padding-bottom: 15px;
+}
+.courses p{
+    padding-bottom: 10px;
+}
+.review{
+    background: #383737;
+    padding: 15px 20px;
+    color: #cfc310;
+    margin: 15px auto;
+}
 /* Our upcoming-courses page start*/
 #upcoming-course{
     background: url(./images/bc-courses.jpeg);
