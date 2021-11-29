@@ -404,7 +404,7 @@ footer {
 #form-title{
     font-size: 30px;
     line-height: 35px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     font-weight: 700;
     color: #fafafa;
