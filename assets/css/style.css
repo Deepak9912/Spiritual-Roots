@@ -192,6 +192,7 @@ header a {
     top: 8%;
     left: 40px;
     color: #dde2e7;
+    text-align: justify;
 }
 
 #benefit-text h2 {
