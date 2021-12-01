@@ -113,56 +113,42 @@ header a {
 }
 
 /*Intro section*/
-#intro {
-    height: 70vh;
-    width: 100%;
-    padding: 2%;
-    display: inline-flex;
-    margin-top: 5%;
+#intro-home {
+    height: 100%;
+    padding: 20px 35px;
 }
 
-#intro-para {
-    width: 60%;
-    float: right;
+.intro-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    height: 500px;
 }
 
-#intro-video {
-    width: 35%;
-    float: left;
-    height: 75%;
+.intro-video {
+    padding: 15px;
 }
 
-#intro-para p {
-    line-height: 2rem;
-    text-align: center;
-    padding: 1%;
-    font-size: 18px;
-    color: #d1cacb;
-    font-family: Helvetica, sans-serif;
+.intro-video iframe {
+    width: 500px;
+    height: 380px;
 }
 
-#intro-para button {
-    padding: 10px 7px;
-    margin: 20px auto;
-    font-weight: 800;
-    color: #3a3232;
-    background: #cbc8c7;
-    border-radius: 5%;
-    border: none;
-    letter-spacing: 1px;
+.intro-text {
+    padding: 15px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #fafafa;
 }
 
-#intro-para button:hover {
-    background: #9d8d8f;
-    color: #faffff;
-}
-
+/*Intro section ends*/
 /*benefit section start */
-#benefit{
+#benefit {
     padding: 20px;
     margin-bottom: 20px;
 }
-#benefit h2{
+
+#benefit h2 {
     text-align: center;
     margin-bottom: 25px;
     font-size: 30px;
@@ -170,52 +156,61 @@ header a {
     text-transform: capitalize;
     color: #e0e0db;
 }
-.container-benefit{
+
+.container-benefit {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
-.card{
+
+.card {
     height: 450px;
     background: rgb(31, 30, 30);
     border-radius: 5px;
     border: 2px solid #fafafa;
 }
-.card-one{
+
+.card-one {
     height: 250px;
     background: url(./images/stress.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card-two{
+
+.card-two {
     height: 250px;
     background: url(./images/anxiety.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card-three{
+
+.card-three {
     height: 250px;
     background: url(./images/emotional\ health.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card-text{
+
+.card-text {
     margin-top: 15px;
     padding: 15px;
     font-size: 16px;
 }
-.card-text h3{
+
+.card-text h3 {
     text-align: center;
     margin-bottom: 10px;
     color: #f1e3e3;
     letter-spacing: 2px;
 }
-.card-text p{
+
+.card-text p {
     color: #f0e7e7;
 }
+
 /*Benefit section ends*/
 /*footer section start*/
 footer {
@@ -249,6 +244,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 /* About intro image section end*/
 
 /*about intro starts*/
@@ -272,23 +268,26 @@ footer {
     padding: 35px 20px;
     width: 100%;
 }
+
 /*about intro ends*/
-#history-images{
+#history-images {
     height: 100vh;
     width: 100%;
     padding: 10px;
     margin-bottom: 4rem;
 }
-.wrapper{
+
+.wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
-.wrapper > div{
+
+.wrapper>div {
     height: 250px;
     background-size: cover;
-    background-attachment: fixed;  
-    display: flex; 
+    background-attachment: fixed;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -298,37 +297,45 @@ footer {
     letter-spacing: 2px;
     font-size: 20px;
 }
-.bg1{
+
+.bg1 {
     background: url(./images/bgone.jpeg);
-    
+
 }
-.bg2{
+
+.bg2 {
     background: url(./images/bg2.jpeg);
 }
+
 /*about page ends*/
 /* Our courses page start*/
-#courses-start{
+#courses-start {
     padding: 30px;
-    background:#252524;
+    background: #252524;
     border-radius: 10px;
 }
-.courses{
+
+.courses {
     padding: 20px;
 }
-.courses h2{
+
+.courses h2 {
     padding-bottom: 15px;
 }
-.courses p{
+
+.courses p {
     padding-bottom: 10px;
 }
-.review{
+
+.review {
     background: #383737;
     padding: 15px 20px;
     color: #eed5d5;
     margin: 15px auto;
 }
+
 /* Our upcoming-courses page start*/
-#upcoming-course{
+#upcoming-course {
     background: url(./images/bc-courses.jpeg);
     background-position: center;
     background-size: cover;
@@ -339,15 +346,18 @@ footer {
     width: 100%;
     padding: 20px;
 }
-#upcoming-course h2{
+
+#upcoming-course h2 {
     text-align: center;
 }
-.container-course{
+
+.container-course {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding: 10px;
 }
+
 .course-card {
     border: 2px solid #fff;
     padding: 20px;
@@ -361,10 +371,11 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
 /* Our upcoming-courses page end*/
 /* Contact page starts*/
 /* form section starts*/
-#form{
+#form {
     background: url(./images/form-bg.jpeg) no-repeat top center;
     background-size: cover;
     width: 100%;
@@ -372,13 +383,15 @@ footer {
     font-size: 18px;
     position: relative;
 }
-#wrapper-form{
+
+#wrapper-form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#contact-us{
+
+#contact-us {
     width: 100%;
     max-width: 800px;
     height: auto;
@@ -386,7 +399,8 @@ footer {
     padding: 40px 50px;
     border-radius: px;
 }
-#form-title{
+
+#form-title {
     font-size: 30px;
     line-height: 35px;
     text-transform: capitalize;
@@ -395,20 +409,24 @@ footer {
     color: #fafafa;
     padding-bottom: 15px;
 }
-#input-fields{
+
+#input-fields {
     padding: 0 30px;
 }
-#input-fields .items{
+
+#input-fields .items {
     width: 100%;
     padding-bottom: 15px;
 }
-label{
+
+label {
     display: block;
     font-size: 15px;
     color: #fafafa;
     text-transform: capitalize;
     padding-bottom: 5px;
 }
+
 .form-input,
 .text-area {
     background: transparent;
@@ -419,7 +437,8 @@ label{
     color: #fafafa;
     border-radius: 4px;
 }
-.btn{
+
+.btn {
     margin: 0 30px;
     background: #fff;
     color: black;
@@ -432,30 +451,15 @@ label{
     cursor: pointer;
     letter-spacing: 4px;
 }
-#msg{
+
+#msg {
     height: 100px;
 }
+
 /* form section ends*/
 /* Contact page end*/
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #intro {
-        display: block;
-    }
-
-    #intro-para {
-        width: 100%;
-    }
-
-    #intro-para button {
-        margin: 0 auto;
-    }
-
-    #intro-video {
-        width: 100%;
-        height: 80%;
-        margin: 0 auto;
-    }
 
     footer {
         width: 100%;
@@ -487,128 +491,132 @@ label{
         width: 100%;
         height: 280px;
     }
-    #courses{
+
+    #courses {
         margin: 20px;
         padding: 5px;
-        background-color:#2b2c2c;
+        background-color: #2b2c2c;
         border-radius: 30px;
     }
 
-    
-    .contact-page{
+
+    .contact-page {
         padding: 120px 50px;
     }
 }
-    /*Media query section end */
-    /* For medium screens sizes from 950px wide and down */
-    @media screen and (max-width: 950px) {
-        #menu li {
-            display: inline-block;
-            margin: 20px 50px;
-            text-align: center;
-        }
 
-        #home-cover {
-            background-color: rgba(128, 187, 226, 0.6);
-            text-transform: uppercase;
-            width: 50%;
-            height: 40%;
-            position: absolute;
-            bottom: 32%;
-        }
-
-        #home-cover h1 {
-            padding: 18% 5%;
-            line-height: 60px;
-            text-align: center;
-        }
-
-        #intro {
-            height: 60vh;
-            display: block;
-            margin-top: 1%;
-        }
-
-        #intro-para {
-            width: 100%;
-            text-align: center;
-        }
-
-        #intro-para>p {
-            font-size: 21px;
-        }
-
-        #intro-video {
-            width: 100%;
-            height: 80%;
-            margin-bottom: 5%;
-        }
-        #intro-para button{
-            margin-bottom: 15px;
-        }
-        .container-benefit{
-            grid-template-columns: 1fr;
-        }
-        .card{
-            height: auto;
-        }
-        .courses{
-            padding: 5px;
-            background-color:#2b2c2c;
-            border-radius: 10px;
-            width: 100%;
-        }
-        #upcoming-course{
-            height: auto;
-            width: 100%;
-        }
-        .container-course {
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-        .course-card{
-            margin: 10px 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        #contact-us{
-            padding: 10px 15px;
-        }
-
+/*Media query section end */
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #home-cover {
+        background-color: rgba(128, 187, 226, 0.6);
+        text-transform: uppercase;
+        width: 50%;
+        height: 40%;
+        position: absolute;
+        bottom: 32%;
     }
-    /* For small screens sizes from 800px wide and down */
-    @media screen and (max-width: 800px){
-        #menu li {
-            display: inline-block;
-            margin: 25px 10px;
-            text-align: center;
-        }
-        #home-cover{
-            width: 80%;
-            height: 80%;
-            line-height: 20px;
-            position: absolute;
-            top: 10%;
-            left: 10%;
-        }
-        #history-images{
-            height: auto;
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 1rem;
-        }
-        .wrapper{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 10px;
-        }
-        #footer{
-            height: 80px;
-        }
-        #intro-para > p{
-            font-size: 17px;
-        }
+
+    #home-cover h1 {
+        padding: 18% 5%;
+        line-height: 60px;
+        text-align: center;
     }
+
+    #intro-home {
+        height: 100%;
+    }
+
+    .intro-container {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-video iframe {
+        width: fit-content;
+        height: 300px;
+    }
+
+    #menu li {
+        display: inline-block;
+        margin: 20px 50px;
+        text-align: center;
+    }
+
+    .container-benefit {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .courses {
+        padding: 5px;
+        background-color: #2b2c2c;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    #upcoming-course {
+        height: auto;
+        width: 100%;
+    }
+
+    .container-course {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .course-card {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #contact-us {
+        padding: 10px 15px;
+    }
+
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #menu li {
+        display: inline-block;
+        margin: 25px 10px;
+        text-align: center;
+    }
+
+    #home-cover {
+        width: 80%;
+        height: 80%;
+        line-height: 20px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+    #history-images {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    #footer {
+        height: 80px;
+    }
+
+    #intro-para>p {
+        font-size: 17px;
+    }
+}
