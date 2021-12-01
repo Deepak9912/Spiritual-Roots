@@ -530,12 +530,22 @@ label {
     .intro-container {
         grid-template-columns: 1fr;
     }
-
+    .intro-text{
+        height: auto;
+    }
+    .intro-text p{
+        line-height: 22px;
+    }
     .intro-video iframe {
         width: fit-content;
         height: 300px;
     }
-
+    #benefit{
+        margin-top: 16rem;
+    }
+    .container-benefit {
+        grid-template-columns: 1fr;
+    }
     #menu li {
         display: inline-block;
         margin: 20px 50px;
