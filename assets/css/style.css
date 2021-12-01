@@ -136,6 +136,7 @@ header a {
     line-height: 2rem;
     text-align: center;
     padding: 1%;
+    font-size: 18px;
     color: #d1cacb;
     font-family: Helvetica, sans-serif;
 }
@@ -149,20 +150,6 @@ header a {
     border-radius: 5%;
     border: none;
     letter-spacing: 1px;
-    /*animation for button*/
-    animation-name: button;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes button {
-    from {
-        transform: scale(.5);
-    }
-
-    to {
-        transform: scale(1);
-    }
 }
 
 #intro-para button:hover {
@@ -173,38 +160,44 @@ header a {
 /*benefit section start */
 #benefit{
     padding: 20px;
+    margin-bottom: 20px;
 }
 #benefit h2{
     text-align: center;
     margin-bottom: 25px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    color: #e0e0db;
 }
 .container-benefit{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+    grid-gap: 20px;
 }
 .card{
     height: 450px;
-    background: rgb(161, 154, 149);
+    background: rgb(31, 30, 30);
     border-radius: 5px;
+    border: 2px solid #fafafa;
 }
 .card-one{
     height: 250px;
-    background: url(./img/stress.jpeg);
+    background: url(./images/stress.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card-two{
     height: 250px;
-    background: url(./img/anxiety.jpeg);
+    background: url(./images/anxiety.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card-three{
     height: 250px;
-    background: url(./img/emotional\ health.jpeg);
+    background: url(./images/emotional\ health.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,7 +205,7 @@ header a {
 .card-text{
     margin-top: 15px;
     padding: 15px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .card-text h3{
     text-align: center;
@@ -553,7 +546,12 @@ label{
         #intro-para button{
             margin-bottom: 15px;
         }
-
+        .container-benefit{
+            grid-template-columns: 1fr;
+        }
+        .card{
+            height: auto;
+        }
         .courses{
             padding: 5px;
             background-color:#2b2c2c;
