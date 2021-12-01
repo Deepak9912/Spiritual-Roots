@@ -171,8 +171,59 @@ header a {
 }
 
 /*benefit section start */
-
-
+#benefit{
+    padding: 20px;
+}
+#benefit h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.container-benefit{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.card{
+    height: 450px;
+    background: rgb(161, 154, 149);
+    border-radius: 5px;
+}
+.card-one{
+    height: 250px;
+    background: url(./img/stress.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-two{
+    height: 250px;
+    background: url(./img/anxiety.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-three{
+    height: 250px;
+    background: url(./img/emotional\ health.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-text{
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 18px;
+}
+.card-text h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #f1e3e3;
+    letter-spacing: 2px;
+}
+.card-text p{
+    color: #f0e7e7;
+}
+/*Benefit section ends*/
 /*footer section start*/
 footer {
     height: 150px;
