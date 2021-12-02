@@ -46,22 +46,22 @@ Two main colors used are dark and light to to ensure the text is readable.
 * Contact Page:- This section features with Name text filed, Email field, Phone number and comment box text area by which users can communicate with the business. 
 
 ## Technology used (Language)
-1. 'HTML4'
-2. 'CSS3'
+1. **HTML4**
+2. **CSS3**
 
 ## Frameworks, Libraries & Programs Used
 
-* 'Font Awesome' 
+* *Font Awesome* 
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-* 'Git'
+* *Git*
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-* 'GitHub'
+* *GitHub*
 GitHub is used to store the projects code after being pushed from Git.
 
-* 'Gitpod'
+* *Gitpod*
 Gitpod was used as a text editor to create and edit files.
 
-* 'Google Chrome'
+* *Google Chrome*
 Google Chrome was used to browse the pages.
