@@ -591,7 +591,13 @@ label {
         justify-content: center;
         text-align: center;
     }
-
+    #wrapper-form {
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     #contact-us {
         padding: 10px 15px;
     }
