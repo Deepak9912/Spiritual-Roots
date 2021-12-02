@@ -11,3 +11,8 @@ User Objective as client:
 * Looking for opening times
 * Looking for either online or face to face consultation
 * Looking for how to start with Spiritual-connection
+
+### Developer and Business Goal
+* Design and develop a website which attracts client with detailed information
+* Provide a professional experience on all the pages through every content
+* Be able to make necessary changes on the website to provide users a friendly experience
