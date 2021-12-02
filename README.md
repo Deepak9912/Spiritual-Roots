@@ -16,3 +16,12 @@ User Objective as client:
 * Design and develop a website which attracts client with detailed information
 * Provide a professional experience on all the pages through every content
 * Be able to make necessary changes on the website to provide users a friendly experience
+
+### Design Choice
+This website was developed using user centric approach and special attention paid to every content and layout on the webpage.
+
+## Fonts
+1. All the H1 - 'Anton', sans-serif;
+2. All the H2 - Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+3. All the H3 - 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+4. Paragraph - Helvetica, sans-serif;
