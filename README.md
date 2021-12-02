@@ -51,17 +51,24 @@ Two main colors used are dark and light to to ensure the text is readable.
 
 ## Frameworks, Libraries & Programs Used
 
-* *Font Awesome* 
+* [Font Awesome](https://fontawesome.com/)
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-* *Git*
+* [Git](https://git-scm.com/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-* *GitHub*
+* [GitHub](https://github.com/)
 GitHub is used to store the projects code after being pushed from Git.
 
-* *Gitpod*
+* [Gitpod](https://www.gitpod.io/)
 Gitpod was used as a text editor to create and edit files.
 
-* *Google Chrome*
+* [Google Chrome](https://www.google.com/)
 Google Chrome was used to browse the pages.
+
+## Testing
+* Used Wave web assessment tool to fix any structural or contrast error.
+* The Website was tested on Google Chrome, Internet Explorer and Mozilla firefox.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, Samsung and Huwawei phone.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
