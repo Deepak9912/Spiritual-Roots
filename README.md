@@ -79,3 +79,27 @@ Google Chrome was used to browse the pages.
 
 * The main image display was not aligned on different screen sizes, media query was used and the used different screen sizes to make sure the image fits to the screen.
 * When used two CSS grid section on home page, contents of both the sections overlapped, used margin and padding values in media query to align them on the website.
+
+## Deployement
+
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps:
+1.	Log in to GitHub and locate the GitHub Repository.
+2.	At the top of the Repository, locate the "Settings" Button on the menu.
+3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4.	Under "Source", click the dropdown called "None" and select "Master Branch".
+5.	The page will automatically refresh.
+6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Credits
+
+## Content
+The text for service section was created using contents from the following sites:
+1. 	[Suaimhneas](https://cbt-therapy-mindfulness.ie/mindfulness-for-depression/)
+2.  [Wikipedia](https://www.wikipedia.org/)
+
+## Media
+The photos used in site were obtained from [Pexels](https://www.pexels.com/)
+
+## Acknowledgement
+Victor Miclovich (Mentor) for support and advice.
