@@ -94,7 +94,7 @@ header a {
 /*Home cover style */
 #home-cover h1 {
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 4px;
     font-family: 'Anton', sans-serif;
     padding: 20px;
@@ -135,6 +135,7 @@ header a {
 }
 
 .intro-text {
+    margin-top: 4rem;
     padding: 15px;
     line-height: 35px;
     font-size: 16px;
@@ -514,11 +515,11 @@ label {
         width: 50%;
         height: 40%;
         position: absolute;
-        bottom: 32%;
+        bottom: 35%;
     }
 
     #home-cover h1 {
-        padding: 18% 5%;
+        padding: 8% 5%;
         line-height: 60px;
         text-align: center;
     }
@@ -531,7 +532,9 @@ label {
         grid-template-columns: 1fr;
     }
     .intro-text{
+        margin-top: 0;
         height: auto;
+        padding: 10px;
     }
     .intro-text p{
         line-height: 22px;
