@@ -67,8 +67,15 @@ Gitpod was used as a text editor to create and edit files.
 Google Chrome was used to browse the pages.
 
 ## Testing
+
 * Used Wave web assessment tool to fix any structural or contrast error.
+* Dev tool was used to check website on different screens.
 * The Website was tested on Google Chrome, Internet Explorer and Mozilla firefox.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, Samsung and Huwawei phone.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+## Known Bugs
+
+* The main image display was not aligned on different screen sizes, media query was used and the used different screen sizes to make sure the image fits to the screen.
+* When used two CSS grid section on home page, contents of both the sections overlapped, used margin and padding values in media query to align them on the website.
