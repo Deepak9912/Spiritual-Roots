@@ -303,6 +303,10 @@ footer {
     font-size: 32px;
 }
 
+.wrapper>div h3{
+    padding-top: 5px;
+    font-weight: 700;
+}
 .bg1 {
     background: url(./images/bgone.jpeg);
 
