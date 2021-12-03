@@ -114,7 +114,6 @@ header a {
 
 /*Intro section*/
 #intro-home {
-    height: a;
     padding: 20px 35px;
 }
 
@@ -265,7 +264,6 @@ footer {
 }
 
 #about-intro {
-    height: auto;
     padding: 35px 20px;
     width: 100%;
 }
@@ -278,7 +276,7 @@ footer {
     margin-bottom: 4rem;
 }
 
-#history-images-title{
+#history-images-title {
     text-align: center;
     padding-bottom: 10px;
     color: #d1cacb;
@@ -309,10 +307,11 @@ footer {
     font-size: 32px;
 }
 
-.wrapper>div h3{
+.wrapper>div h3 {
     padding-top: 5px;
     font-weight: 700;
 }
+
 .bg1 {
     background: url(./images/bgone.jpeg);
 
@@ -407,9 +406,7 @@ footer {
 }
 
 #contact-us {
-    width: 100%;
     max-width: 800px;
-    height: auto;
     background: rgba(0, 0, 0, 0.6);
     padding: 40px 50px;
     border-radius: px;
@@ -550,7 +547,6 @@ label {
 
     .intro-text {
         margin-top: 0;
-        height: auto;
         padding: 2px 1px 10px 1px;
     }
 
@@ -581,9 +577,6 @@ label {
         grid-template-columns: 1fr;
     }
 
-    .card {
-        height: auto;
-    }
 
     .courses {
         padding: 5px;
@@ -593,7 +586,6 @@ label {
     }
 
     #upcoming-course {
-        height: auto;
         width: 100%;
     }
 
@@ -643,7 +635,6 @@ label {
     }
 
     #history-images {
-        height: auto;
         width: 100%;
         padding: 10px;
         margin-bottom: 1rem;
