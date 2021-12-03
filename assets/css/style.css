@@ -20,6 +20,8 @@ header {
 
 header img {
     border-radius: 50%;
+    height: 100px;
+    width: 130px;
 }
 
 header span {
