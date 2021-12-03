@@ -4,6 +4,7 @@ This imaginary website was developed to offer different types of meditation serv
 
 ![desktop](https://user-images.githubusercontent.com/93731898/144644952-04588572-5143-47d2-8d02-9fd8d21af660.PNG)
 
+![mobile-image](https://user-images.githubusercontent.com/93731898/144647633-703086d8-f243-44b6-96ed-c99a0b28dd57.PNG)
 
 ## UX
 
