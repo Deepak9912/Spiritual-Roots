@@ -278,6 +278,12 @@ footer {
     margin-bottom: 4rem;
 }
 
+#history-images-title{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #d1cacb;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
