@@ -94,7 +94,7 @@ header a {
 }
 
 /*Home cover style */
-#home-cover h1 {
+#home-cover h2 {
     color: #fff;
     font-weight: 600;
     letter-spacing: 4px;
@@ -531,7 +531,7 @@ label {
         bottom: 35%;
     }
 
-    #home-cover h1 {
+    #home-cover h2 {
         padding: 1% 1%;
         line-height: 60px;
         text-align: center;
