@@ -299,6 +299,10 @@ footer {
     font-size: 20px;
 }
 
+.wrapper>div i {
+    font-size: 32px;
+}
+
 .bg1 {
     background: url(./images/bgone.jpeg);
 
@@ -531,27 +535,32 @@ label {
     .intro-container {
         grid-template-columns: 1fr;
     }
-    ..intro-video{
 
-    }
-    .intro-text{
+    ..intro-video {}
+
+    .intro-text {
         margin-top: 0;
         height: auto;
         padding: 2px 1px 10px 1px;
     }
-    .intro-text p{
+
+    .intro-text p {
         line-height: 22px;
     }
+
     .intro-video iframe {
         width: 100%;
         height: 300px;
     }
-    #benefit{
+
+    #benefit {
         margin-top: 24rem;
     }
+
     .container-benefit {
         grid-template-columns: 1fr;
     }
+
     #menu li {
         display: inline-block;
         margin: 20px 50px;
@@ -591,6 +600,7 @@ label {
         justify-content: center;
         text-align: center;
     }
+
     #wrapper-form {
         position: absolute;
         width: 80%;
@@ -598,6 +608,7 @@ label {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
     #contact-us {
         padding: 10px 15px;
     }
