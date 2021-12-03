@@ -1,7 +1,9 @@
 # SPIRITUAL-CONNECTION
 ______________
-[](assets/css/images/ipad.PNG)
 This imaginary website was developed to offer different types of meditation services in Dublin. Spiritual Connection provides mediation services based on ancient methods inspired by Hinduism and Chinese culture. It provides both online and face to face consultation.
+
+![Mobile](assets/images/mobile-image.PNG)
+
 ## UX
 
 ### Project Goals
