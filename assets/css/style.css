@@ -409,7 +409,7 @@ footer {
     max-width: 800px;
     background: rgba(0, 0, 0, 0.6);
     padding: 40px 50px;
-    border-radius: px;
+    border-radius: 10px;
 }
 
 #form-title {
@@ -454,7 +454,7 @@ label {
     margin: 0 30px;
     background: #fff;
     color: black;
-    font-size: 20x;
+    font-size: 20px;
     padding: 10px 15px;
     text-align: center;
     text-transform: uppercase;
@@ -543,7 +543,6 @@ label {
         grid-template-columns: 1fr;
     }
 
-    ..intro-video {}
 
     .intro-text {
         margin-top: 0;
