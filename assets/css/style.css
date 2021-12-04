@@ -234,7 +234,7 @@ footer {
 
 #social-links i {
     font-size: 180%;
-    margin: 1%;
+    margin: 2% 1%;
     padding: 2%;
     color: #fafafa;
 }
@@ -359,7 +359,8 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.8);
-    background-blend-mode: saturation;
+    /*background-blend-mode: hue; */
+    z-index: -1;
     height: 40vh;
     width: 100%;
     padding: 20px;
@@ -388,6 +389,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    z-index: 1;
 }
 
 /* Our upcoming-courses page end*/
