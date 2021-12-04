@@ -568,6 +568,10 @@ label {
         grid-template-columns: 1fr;
     }
 
+    .card{
+        height: fit-content;
+    }
+
     #menu li {
         display: inline-block;
         margin: 20px 50px;
