@@ -671,6 +671,10 @@ label {
         height: 80px;
     }
 
+    #social-links li  i{
+        padding-left: 10px;
+    }
+
     #intro-para>p {
         font-size: 17px;
     }
