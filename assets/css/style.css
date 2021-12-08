@@ -542,16 +542,16 @@ label {
 @media screen and (max-width: 1024px) {
 
     #home {
-        height: 70vh;
+        height: 50vh;
     }
 
     #home-cover {
         background-color: rgba(128, 187, 226, 0.6);
         text-transform: uppercase;
         width: 40%;
-        height: 65%;
+        height: 40%;
         position: absolute;
-        bottom: 10%;
+        top: 40%;
     }
 
     #home-cover h2 {
@@ -589,8 +589,7 @@ label {
     }
 
     footer {
-        width: 100%;
-        height: 20vh;
+        height: 10vh;
     }
 
     #history-images {
@@ -661,7 +660,7 @@ label {
 
     #home-cover {
         width: 50%;
-        height: 50%;
+        height: 40%;
         line-height: 20px;
         position: absolute;
         top: 35%;
@@ -689,8 +688,8 @@ label {
         grid-gap: 10px;
     }
 
-    #footer {
-        height: 80px;
+    footer {
+        height: 10vh;
     }
 
     #social-links li i {
