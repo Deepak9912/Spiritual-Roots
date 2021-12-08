@@ -542,19 +542,20 @@ label {
 @media screen and (max-width: 1024px) {
 
     #home {
-        height: 80vh;
+        height: 60vh;
     }
 
-    #home-page{
+    #home-page {
         height: 600px;
     }
+
     #home-cover {
         background-color: rgba(128, 187, 226, 0.6);
         text-transform: uppercase;
         width: 40%;
-        height: 55%;
+        height: 40%;
         position: absolute;
-        top: 40%;
+        top: 20%;
     }
 
     #home-cover h2 {
@@ -592,7 +593,7 @@ label {
     }
 
     footer {
-        height: 20vh;
+        height: 10vh;
     }
 
     #history-images {
@@ -661,12 +662,20 @@ label {
         text-align: center;
     }
 
+    #home {
+        height: 60vh;
+    }
+
+    #home-page {
+        height: 600px;
+    }
+
     #home-cover {
         width: 50%;
-        height: 55%;
+        height: 45%;
         line-height: 20px;
         position: absolute;
-        top: 35%;
+        top: 25%;
         left: 40%;
     }
 
