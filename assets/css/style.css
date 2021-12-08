@@ -660,7 +660,7 @@ label {
 
     #home-cover {
         width: 50%;
-        height: 40%;
+        height: 55%;
         line-height: 20px;
         position: absolute;
         top: 35%;
@@ -709,7 +709,7 @@ label {
     }
 
     #home {
-        height: 40vh;
+        height: 50vh;
     }
 
     #home-cover {
@@ -726,7 +726,7 @@ label {
     }
 
     #intro-home {
-        height: 750px;
+        height: 800px;
     }
 
     #benefit {
