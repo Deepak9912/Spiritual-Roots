@@ -538,25 +538,27 @@ label {
 }
 
 /*Media query section end */
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screens sizes from 1024px wide and down */
+@media screen and (max-width: 1024px) {
+
+    #home {
+        height: 50vh;
+    }
+
     #home-cover {
         background-color: rgba(128, 187, 226, 0.6);
         text-transform: uppercase;
         width: 50%;
-        height: 40%;
+        height: 30%;
         position: absolute;
         bottom: 35%;
     }
 
     #home-cover h2 {
-        padding: 1% 1%;
-        line-height: 60px;
+        padding: 10px 5px 5px 0px;
+        line-height: 65px;
+        font-size: 25px;
         text-align: center;
-    }
-
-    #intro-home {
-        height: 100%;
     }
 
     .intro-container {
@@ -586,6 +588,15 @@ label {
         grid-template-columns: 1fr;
     }
 
+    footer {
+        width: 100%;
+        height: 10vh;
+    }
+
+    #history-images {
+        height: fit-content;
+    }
+
     .card {
         height: fit-content;
     }
@@ -599,7 +610,6 @@ label {
     .container-benefit {
         grid-template-columns: 1fr;
     }
-
 
     .courses {
         padding: 5px;
@@ -636,7 +646,7 @@ label {
     }
 
     #contact-us {
-        padding: 10px 15px;
+        padding: 25px;
     }
 
 }
@@ -651,18 +661,18 @@ label {
 
     #home-cover {
         width: 50%;
-        height: 40%;
+        height: 50%;
         line-height: 20px;
         position: absolute;
-        top: 45%;
-        left: 35%;
+        top: 35%;
+        left: 40%;
     }
 
-    #home-cover h2{
+    #home-cover h2 {
         padding: 3px 5px 5px 8px;
     }
 
-    #intro-home{
+    #intro-home {
         height: fit-content;
     }
 
@@ -699,6 +709,10 @@ label {
         height: fit-content;
     }
 
+    #home {
+        height: 40vh;
+    }
+
     #home-cover {
         width: 100%;
         height: 100%;
@@ -708,21 +722,26 @@ label {
         left: 0;
     }
 
+    #home-cover h2 {
+        padding-top: 22px;
+    }
+
     #intro-home {
-        height: 700px;
+        height: 750px;
     }
 
     #benefit {
         height: 100%;
     }
 
-    #footer {
-        height: 50px;
-        padding: 10px;
+    footer {
+        height: 10vh;
+        width: 100%;
+        padding: 5px;
     }
 
     footer p {
-        margin-bottom: 4px;
+        margin-bottom: 2px;
     }
 
     #social-links li {
