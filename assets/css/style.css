@@ -542,16 +542,16 @@ label {
 @media screen and (max-width: 1024px) {
 
     #home {
-        height: 50vh;
+        height: 70vh;
     }
 
     #home-cover {
         background-color: rgba(128, 187, 226, 0.6);
         text-transform: uppercase;
-        width: 50%;
-        height: 30%;
+        width: 40%;
+        height: 65%;
         position: absolute;
-        bottom: 35%;
+        bottom: 10%;
     }
 
     #home-cover h2 {
@@ -590,7 +590,7 @@ label {
 
     footer {
         width: 100%;
-        height: 10vh;
+        height: 20vh;
     }
 
     #history-images {
@@ -703,7 +703,7 @@ label {
 }
 
 /* For smaller screens sizes up to 380px */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
     header #menu li {
         display: block;
         height: fit-content;
