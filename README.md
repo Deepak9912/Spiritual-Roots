@@ -96,6 +96,12 @@ The project was deployed to GitHub Pages using the following steps:
 5.	The page will automatically refresh.
 6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+## Validation check
+The webiste was check on W3C to validate HTML AND CSS code structure.
+1. HTML Validation
+
+2. CSS Validation
+
 ## Credits
 
 ## Content
