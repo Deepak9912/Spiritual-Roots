@@ -10,6 +10,7 @@ body {
     color: #FAFAFA;
 }
 
+/*Home page starts */
 /*Heading and logo image */
 header {
     width: 100%;
@@ -152,13 +153,11 @@ header a {
     color: #fafafa;
 }
 
-/*Intro section ends*/
 /*benefit section start */
 #benefit {
     padding: 20px;
     margin-bottom: 20px;
 }
-
 
 .container-benefit {
     display: grid;
@@ -242,6 +241,7 @@ footer p {
     color: #fafafa;
 }
 
+/*Home page ends */
 /* About page starts */
 /* About intro image section */
 #about-image {
@@ -361,9 +361,7 @@ footer p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.8);
-    /*background-blend-mode: hue; */
-    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.8) z-index: -1;
     height: 40vh;
     width: 100%;
     padding: 20px;
