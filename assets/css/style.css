@@ -361,7 +361,8 @@ footer p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.8) z-index: -1;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
     height: 40vh;
     width: 100%;
     padding: 20px;
