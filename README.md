@@ -1,6 +1,6 @@
 # SPIRITUAL-CONNECTION
 ______________
-This imaginary website was developed to offer different types of meditation services in Dublin. Spiritual Connection provides mediation services based on ancient methods inspired by Hinduism and Chinese culture. It provides both online and face to face consultation.
+This imaginary website was developed to offer different types of meditation services in Dublin. Spiritual Connection provides meditation services based on ancient methods inspired by Hinduism and Chinese culture. It provides both online and face to face consultation.
 
 ![desktop](https://user-images.githubusercontent.com/93731898/144644952-04588572-5143-47d2-8d02-9fd8d21af660.PNG)
 
@@ -12,7 +12,7 @@ This imaginary website was developed to offer different types of meditation serv
 ### Project Goals
 The primary objective of Spiritual-Connection is to provide its users a user-friendly, intuitive website capable of providing all required information about the business and its services.
 User Objective as client:
-* Looking for mediation services for stress relief, anxiety control or emotional health
+* Looking for meditation services for stress relief, anxiety control or emotional health
 * Looking for details of each service and its cost
 * Looking for opening times
 * Looking for either online or face to face consultation
@@ -27,10 +27,8 @@ User Objective as client:
 This website was developed using user centric approach and special attention paid to every content and layout on the webpage.
 
 ## Fonts
-1. All the H1 - 'Anton', sans-serif;
-2. All the H2 - Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
-3. All the H3 - 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-4. Paragraph - Helvetica, sans-serif;
+1. All the used Headings (H1, H2 & H3) - 'Anton', sans-serif;
+2. Paragraph - Helvetica, sans-serif;
 
 ## Icons
 All icons used are relevant to the subject to make navigation easy
