@@ -180,7 +180,7 @@ header a {
 }
 
 .card-one {
-    height: 250px;
+    height: 230px;
     background: url(./images/stress.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ header a {
 }
 
 .card-two {
-    height: 250px;
+    height: 230px;
     background: url(./images/anxiety.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ header a {
 }
 
 .card-three {
-    height: 250px;
+    height: 230px;
     background: url(./images/emotional\ health.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -207,6 +207,7 @@ header a {
     margin-top: 15px;
     padding: 15px;
     font-size: 16px;
+    line-height: 22px;
 }
 
 .card-text h3 {
