@@ -1,6 +1,6 @@
 # SPIRITUAL-CONNECTION
 ______________
-This imaginary website was developed to offer different types of meditation services in Dublin. Spiritual-Connection provides meditation services based on ancient methods inspired by Hinduism and Chinese culture. It provides both online and face to face consultation.
+This imaginary website was developed to offer different types of meditation services in Dublin. Spiritual-Connection provides meditation services based on ancient methods inspired by Hindu and Chinese culture. It provides both online and face to face consultation.
 
 ![desktop](https://user-images.githubusercontent.com/93731898/144644952-04588572-5143-47d2-8d02-9fd8d21af660.PNG)
 
@@ -79,8 +79,8 @@ Google Chrome was used to browse the pages.
 
 ## Known Bugs
 
-* The main image display was not aligned on different screen sizes, media query was used and the used different screen sizes to make sure the image fits to the screen.
-* When used two CSS grid section on home page, contents of both the sections overlapped, used margin and padding values in media query to align them on the website.
+* The home page has an error alert on the video with message "An embedded or linked YouTube video is present", have tried to add subtitles still need to find a way to fix the alert message.
+* History-page section in about page has CSS grid property which works well on the bigger screen but on smaller screen it leaves an extra column on its own.
 
 ## Deployement
 
