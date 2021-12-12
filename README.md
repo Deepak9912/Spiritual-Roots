@@ -26,7 +26,7 @@ User Objective as client:
 ### Design Choice
 This website was developed using user centric approach and special attention paid to every content and layout on the webpage.
 
-## Fonts
+## Font-Family
 1. All the used Headings (H1, H2 & H3) - 'Anton', sans-serif;
 2. Paragraph - Helvetica, sans-serif;
 
