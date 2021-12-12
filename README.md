@@ -52,11 +52,6 @@ Two main colors used are dark and light to to ensure the text is readable.
 * Contact Page:- This section features with Name text filed, Email field, Phone number and comment box text area by which users can communicate with the business. 
 
 ## Technology used (Language)
-1. **HTML5**
-2. ![HMTL Validation](https://user-images.githubusercontent.com/93731898/145388306-4170d1ba-00ff-48bb-86ae-edb0fea620bf.PNG)
-
-2. **CSS3**
-![CSS Validation](https://user-images.githubusercontent.com/93731898/145388334-64e5c6cc-a84e-4c71-b19f-3cdf7bed72f3.PNG)
 
 ## Frameworks, Libraries & Programs Used
 
@@ -102,9 +97,11 @@ The project was deployed to GitHub Pages using the following steps:
 
 ## Validation check
 The webiste was check on W3C to validate HTML AND CSS code structure.
-1. HTML Validation
+1. **HTML5**
+2. ![HMTL Validation](https://user-images.githubusercontent.com/93731898/145388306-4170d1ba-00ff-48bb-86ae-edb0fea620bf.PNG)
 
-2. CSS Validation
+2. **CSS3**
+![CSS Validation](https://user-images.githubusercontent.com/93731898/145388334-64e5c6cc-a84e-4c71-b19f-3cdf7bed72f3.PNG)
 
 ## Credits
 
