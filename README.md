@@ -10,31 +10,32 @@ This imaginary website was developed to offer different types of meditation serv
 ## UX
 
 ### Project Goals
-The primary objective of Spiritual-Connection is to provide its users a user-friendly, intuitive website capable of providing all required information about the business and its services.
-User Objective as client:
-* Looking for meditation services for stress relief, anxiety control or emotional health
-* Looking for details of each service and its cost
-* Looking for opening times
-* Looking for either online or face to face consultation
-* Looking for how to start with Spiritual-Connection
+The primary objective of Spiritual-Connection is to provide a user-friendly, intuitive website capable of providing all required information about the business and its services.
+
+### Website information:
+* Types of meditation services for addressing stress relief, anxiety control or emotional health.
+* Details of each service and its cost.
+* Opening times.
+* Online or face to face consultation.
+* How to start a Spiritual-Connection program.
 
 ### Developer and Business Goal
-* Design and develop a website which attracts client with detailed information
-* Provide a professional experience on all the pages through every content
-* Be able to make necessary changes on the website to provide users a friendly experience
+* Design and develop a website which attracts clients through well presented information.
+* Provide a professional format and layout on each page.
+* Allow for website editing where necessary based on client or user feedback.
 
 ### Design Choice
-This website was developed using user centric approach and special attention paid to every content and layout on the webpage.
+This website was developed using a user centric approach focusing on the content and layout of the webpages.
 
 ## Font-Family
-1. All the used Headings (H1, H2 & H3) - 'Anton', sans-serif;
+1. All the Headings (H1, H2 & H3) - 'Anton', sans-serif;
 2. Paragraph - Helvetica, sans-serif;
 
 ## Icons
-All icons used are relevant to the subject to make navigation easy
+All icons used to make navigation easy
 
 ## Colors
-Two main colors used are dark and light to to ensure the text is readable.
+Two main color themes are dark and light to to ensure the text is readable.
  * Main background is #46433E
  * Main text content is #fafafa
  * Main logo is made of two colors- #FAED26; & #FAFAFA;
@@ -42,19 +43,19 @@ Two main colors used are dark and light to to ensure the text is readable.
 ## Features
 
 ### Existing Features
-* Responsive on all device sizes
+* Responsiveness on all device sizes
 * Interactive elements
 * Home page:– Logo, navbar, header and footer
-* About Page:- Embedded with history of the organization
-* Courses Page:- Provide the details on courses and upcoming courses
-* Contact Page:- This section features with Name text filed, Email field, Phone number and comment box text area by which users can communicate with the business. 
+* About Page:- Details the history of the organization
+* Courses Page:- Provides details on courses and upcoming courses
+* Contact Page:- This section features the Name text field, Email field, Phone number and comment box text area to facilitate user communication to the business. 
 
 ## Technology used (Language)
 
 ## Frameworks, Libraries & Programs Used
 
 * [Font Awesome](https://fontawesome.com/)
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+Font Awesome was executed on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 * [Git](https://git-scm.com/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -70,31 +71,33 @@ Google Chrome was used to browse the pages.
 
 ## Testing
 
-* Used Wave web assessment tool to fix any structural or contrast error.
-* Dev tool was used to check website on different screens.
+* Ran the Wave web assessment tool to fix any structural or contrast error.
+* Developer tool applied to review website on different screens.
 * The Website was tested on Google Chrome, Internet Explorer and Mozilla firefox.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, Samsung and Huwawei phone.
-* A large amount of testing was done to ensure that all pages were linking correctly.
-* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* A large amount of testing was completed to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and content to point out any bugs and/or user experience issues.
 
 ## Known Bugs
 
-* The home page has an error alert on the video with message "An embedded or linked YouTube video is present", have tried to add subtitles still need to find a way to fix the alert message.
-* History-page section in about page has CSS grid property which works well on the bigger screen but on smaller screen it leaves an extra column on its own.
+* The home page contans an error alert on the video with the following message "An embedded or linked YouTube video is present". The alert would be removed by applying subtiles to the video which has been attempted without success.
+* Our History section on About page has CSS grid property which works well on a bigger screen but on a smaller screen there is a blank grid box due to the layout of the uneven number of grid boxes.
 
 ## Deployement
 
 ### GitHub Pages
-The project was deployed to GitHub Pages using the following steps:
-1.	Log in to GitHub and locate the GitHub Repository.
-2.	At the top of the Repository, locate the "Settings" Button on the menu.
-3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4.	Under "Source", click the dropdown called "None" and select "Master Branch".
-5.	The page will automatically refresh.
-6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+The project was deployed through GitHub by following the below steps:
+1.	Log in to GitHub and locate Your repositories through the dropdown menu at the top right of the main screen.
+2.	Once on the "Your repositries" page, locate the project name and select.
+3.	On the project page click "Settings" on the tack bar.
+4.	Scroll through the Settings page until the "GitHub Pages" section appears.
+5.	Within the "GitHub Pages" section, click the link to Source
+6.	Under "Source", click the dropdown menu and choose "None" and then select "Master Branch".
+7.	The page will automatically refresh and retunrs the user to the "Settings" page.
+8.	Scroll back down through the "Settings" page to locate the now published site link in the "GitHub Pages" section.
 
 ## Validation check
-The webiste was check on W3C to validate HTML AND CSS code structure.
+The webiste was tested on W3C to validate HTML AND CSS code structure.
 1. **HTML5**
 2. ![HMTL Validation](https://user-images.githubusercontent.com/93731898/145388306-4170d1ba-00ff-48bb-86ae-edb0fea620bf.PNG)
 
@@ -104,12 +107,12 @@ The webiste was check on W3C to validate HTML AND CSS code structure.
 ## Credits
 
 ## Content
-The text for service section was created using contents from the following sites:
+The text for the service section was created using contents from the following sites:
 1. 	[Suaimhneas](https://cbt-therapy-mindfulness.ie/mindfulness-for-depression/)
 2.  [Wikipedia](https://www.wikipedia.org/)
 
 ## Media
-The photos used in site were obtained from [Pexels](https://www.pexels.com/)
+The photos on the site were obtained from [Pexels](https://www.pexels.com/)
 
 ## Acknowledgement
 Victor Miclovich (Mentor) for support and advice.
