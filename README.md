@@ -48,6 +48,19 @@ Two main color themes are dark and light to to ensure the text is readable.
 * Courses Page:- Provides details on courses and upcoming courses
 * Contact Page:- This section features the Name text field, Email field, Phone number and comment box text area to facilitate user communication to the business. 
 
+## Validation check
+The webiste was tested on W3C to validate HTML AND CSS code structure.
+1. **HTML5**
+ ![HMTL Validation](https://user-images.githubusercontent.com/93731898/145388306-4170d1ba-00ff-48bb-86ae-edb0fea620bf.PNG)
+
+2. **CSS3**
+![CSS Validation](https://user-images.githubusercontent.com/93731898/145388334-64e5c6cc-a84e-4c71-b19f-3cdf7bed72f3.PNG)
+
+3. **ACCESSIBILITY**
+ Colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+ 
+ ![lighthouse](https://user-images.githubusercontent.com/93731898/146989816-8c4d926a-e3ad-4a34-91cd-3a44a69176b9.PNG)
+ 
 ## Technology used (Language)
 
 ## Frameworks, Libraries & Programs Used
@@ -94,13 +107,6 @@ The project was deployed through GitHub by following the below steps:
 7.	The page will automatically refresh and retunrs the user to the "Settings" page.
 8.	Scroll back down through the "Settings" page to locate the now published site link in the "GitHub Pages" section.
 
-## Validation check
-The webiste was tested on W3C to validate HTML AND CSS code structure.
-1. **HTML5**
-2. ![HMTL Validation](https://user-images.githubusercontent.com/93731898/145388306-4170d1ba-00ff-48bb-86ae-edb0fea620bf.PNG)
-
-2. **CSS3**
-![CSS Validation](https://user-images.githubusercontent.com/93731898/145388334-64e5c6cc-a84e-4c71-b19f-3cdf7bed72f3.PNG)
 
 ## Credits
 
