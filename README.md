@@ -43,7 +43,7 @@ Two main color themes are dark and light to to ensure the text is readable.
 ### Existing Features
 * Responsiveness on all device sizes
 * Interactive elements
-* Home page:– Logo, navbar, header and footer
+* Home page:– Logo, navbar, header and footer. It provides the introduction of Meditation and its benefits.
 * About Page:- Details the history of the organization
 * Courses Page:- Provides details on courses and upcoming courses
 * Contact Page:- This section features the Name text field, Email field, Phone number and comment box text area to facilitate user communication to the business. 
